@@ -1,43 +1,48 @@
-# DEEP 营第一期 — AI 壁垒方向卡
+# deep-camp-phase1 — AI 壁垒方向卡
 
-## 📌 项目概述
+## 📌 DEEP 营第一期 · 起点任务
 
-本仓库是 DEEP 营第一期起点任务的完整交付物，包含个人 AI 壁垒方向卡的六个核心模块。所有内容基于个人真实使用 AI 的经历、当前工作场景和对 AI 时代的观察撰写，力求具体、可检查。
+本仓库是 DEEP 营第一期的个人交付仓库，核心内容是 **AI 壁垒方向卡**——基于真实学习、工作和 AI 使用经历的自我定位与路线规划。
+
+## 👤 基本信息
+
+- **GitHub**：ylsh0452
+- **AI 壁垒方向**：文档智能处理（非结构化文档 → 结构化数据 → 格式化输出）
+- **核心工具链**：DeepSeek + Node.js（pdf-parse / docx）+ Claude Code CLI
 
 ## 📁 仓库结构
 
 ```
 .
-├── README.md                      # 本说明文档
-├── prerequisite-proof/            # 前置任务证明材料
-│   └── proof.md
-├── ai-moat-card.md                # AI 壁垒方向卡正文
-├── ai-tool-matrix.md              # AI 工具定位表
-├── info-gap-observations.md       # AI 信息差观察
-├── moat-roadmap.md                # 个人壁垒路线图
-└── retrospective.md               # 任务复盘
+├── README.md
+├── /task1-ai-barrier/                  # 任务一：AI 壁垒方向卡
+│   ├── ai_barrier_direction.md         # AI 壁垒方向卡正文
+│   ├── tool_positioning.md             # AI 工具定位表
+│   ├── information_gap.md              # AI 信息差观察
+│   ├── personal_barrier_map.md         # 个人壁垒路线图
+│   └── reflection.md                   # 任务复盘
+├── /screenshots/                       # 证明材料截图
+├── /outputs/                           # 最终交付物
+│   ├── task1_final_report.md           # 任务一完整报告
+│   └── prerequisite-proof/             # 前置任务证明
+└──
 ```
 
-## 🗺️ 六个模块说明
+## 📋 六个模块说明
 
-| 模块 | 文件名 | 核心问题 |
-|------|--------|----------|
-| 前置任务证明 | `prerequisite-proof/proof.md` | DEEP 营前置准备完成了哪些 |
-| 壁垒方向卡 | `ai-moat-card.md` | 我的 AI 壁垒定位——在哪个方向上建立不可替代性 |
-| 工具定位表 | `ai-tool-matrix.md` | 我接触过的每个 AI 工具，解决什么问题，到什么程度 |
-| 信息差观察 | `info-gap-observations.md` | 我与前沿使用者之间具体差在哪里 |
-| 路线图 | `moat-roadmap.md` | 分阶段的个人 AI 能力建设计划 |
-| 复盘 | `retrospective.md` | 完成本任务的收获与反思 |
+| 模块 | 文件 | 核心内容 |
+|------|------|----------|
+| 壁垒方向卡 | `ai_barrier_direction.md` | 个人定位：为何选"文档智能处理"方向，三层能力定义 |
+| 工具定位表 | `tool_positioning.md` | 9 个工具的深度/场景/局限性评价，当前工具链现状 |
+| 信息差观察 | `information_gap.md` | 四维信息差分析 + 缩小差距的具体行动计划 |
+| 壁垒路线图 | `personal_barrier_map.md` | 6 个月三阶段路线（基础夯实→管线搭建→壁垒成形） |
+| 任务复盘 | `reflection.md` | 收获、不足、认知突破、后续行动 |
+| 完整报告 | `outputs/task1_final_report.md` | 以上五个模块的合并版本 |
 
-## 🎯 个人定位摘要
+## 🎯 核心结论
 
-- **当前角色**：文档自动化与办公效率方向的 AI 实践者
-- **核心工具链**：DeepSeek + Node.js 生态（docx/pdf-parse 等）
-- **目标壁垒**：AI 驱动的非结构化文档处理与自动化——把 PDF、表格、PPT 之间的数据流转做到极致
-- **阶段目标**：从"会用工具"升级到"能搭管线"
+**壁垒定位**：在"非结构化文档 → 结构化数据 → 格式化输出"这条链路上，建立端到端的 AI 自动化能力。
 
-## ⚠️ 使用说明
+**关键认知**：我不是要成为 AI 专家，我是要用 AI 把文档处理这件事做到别人做不到的效率和准确度。
 
-- 本仓库内容为个人真实经历记录，不可直接复制作为他人作业提交
-- 所有工具评价基于个人实际使用体验，不代表工具客观优劣
-- 路线图为 2026 年 7 月制定的 v1 版本，后续会根据实际进展更新
+**最大发现**：从"手动用 AI 聊天"到"AI 驱动的自动化管线"，是我需要跨过的坎。
